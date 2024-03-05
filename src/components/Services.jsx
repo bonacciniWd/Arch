@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="IA generativa feita para criadores de conteúdo."
+          text="A Arch libera o potencial dos aplicativos alimentados por IA."
         />
 
         <div className="relative">
@@ -33,9 +33,11 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Mais Inteligente</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Descubra o potencial de uma IA com a Arch, que é capaz de gerar 
+                imagens e vídeos personalizados em tempo real. Com a geração de imagens, você pode criar qualquer coisa do zero, como um personagem
+                novos tipos de conteúdos.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,10 +68,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Edição de fotos</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                Aprimore automaticamente suas fotos usando nossos aplicativos de IA
+                  recurso de edição de fotos. Experimente agora!
                 </p>
               </div>
 
@@ -78,10 +80,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Gerador de videos</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  O mecanismo de geração de fotos e vídeos artísticos com IA mais avançado do mundo
+                  de IA. <br/> O que você vai criar?
                 </p>
 
                 <ul className="flex items-center justify-between">

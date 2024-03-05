@@ -9,11 +9,11 @@ import { Gradient } from "./design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+      <Heading tag="Pronto pra começar" title="Estamos trabalhando em" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
+          const status = item.status === "Em progresso" ? "Done" : "Em progresso";
 
           return (
             <div
@@ -39,7 +39,7 @@ const Roadmap = () => (
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
                         className="mr-2.5"
-                        src={item.status === "done" ? check2 : loading1}
+                        src={item.status === "In progress" ? check2 : loading1}
                         width={16}
                         height={16}
                         alt={status}
